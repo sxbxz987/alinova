@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alinova - Productos Alimenticios</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #2a7d2e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #218838;
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1587815071073-0f5b3a6acb9a');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .productos {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .producto {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 250px;
+      padding: 1rem;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Alinova</h1>
+    <p>Calidad que alimenta</p>
+  </header>
+
+  <nav>
+    <a href="#harinas">Harinas</a>
+    <a href="#fideos">Fideos</a>
+    <a href="#cereales">Cereales</a>
+  </nav>
+
+  <div class="hero">
+    Productos naturales y nutritivos
+  </div>
+
+  <section class="section" id="harinas">
+    <h2>Harinas</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://cdn.pixabay.com/photo/2015/12/08/00/32/flour-1080551_960_720.jpg" alt="Harina de trigo">
+        <h3>Harina de Trigo</h3>
+        <p>Ideal para panadería y repostería.</p>
+      </div>
+      <div class="producto">
+        <img src="https://cdn.pixabay.com/photo/2020/04/01/17/26/flour-4990687_960_720.jpg" alt="Harina integral">
+        <h3>Harina Integral</h3>
+        <p>100% natural, alta en fibra.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="fideos">
+    <h2>Fideos</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/20/07/spaghetti-1238738_960_720.jpg" alt="Spaghetti">
+        <h3>Spaghetti</h3>
+        <p>Pasta larga, perfecta para salsas.</p>
+      </div>
+      <div class="producto">
+        <img src="https://cdn.pixabay.com/photo/2021/09/01/19/44/noodles-6590534_960_720.jpg" alt="Fideos cortos">
+        <h3>Fideos Cortos</h3>
+        <p>Versátiles para sopas y guisos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cereales">
+    <h2>Cereales</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/22/03/cereal-1238247_960_720.jpg" alt="Avena en hojuelas">
+        <h3>Avena en Hojuelas</h3>
+        <p>Saludable para el desayuno diario.</p>
+      </div>
+      <div class="producto">
+        <img src="https://cdn.pixabay.com/photo/2017/01/31/13/14/cornflakes-2021781_960_720.jpg" alt="Corn flakes">
+        <h3>Corn Flakes</h3>
+        <p>Deliciosos copos de maíz crujientes.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alinova S.A.C. - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
